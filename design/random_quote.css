@@ -1,0 +1,79 @@
+body{
+      background: #06425C;
+      color: #dedbdc;
+      font-family: sans-serif;
+        }
+        .box{
+            border-radius:2px;
+            position:relative;
+           margin:10% auto auto auto;
+             height:auto;
+            padding:60px 30px;
+            display:table;
+            background-color:#814374;
+          .qtext{
+          i{
+            font-size:1em;
+            margin-right:0.4em;
+          }
+            text-align:center;
+            width:500px;
+            clear:both;
+            height:auto;
+            font-weight:600;
+            font-size:1.5em;
+         
+        }
+           .qauthor{
+            text-align:right;
+            width:400px;
+            clear:both;
+            height:auto;
+            font-weight:500;
+            font-size:0.95em;
+        }
+        
+        
+.buttons{
+  width:450px;
+  display:block;
+  margin:auto;
+  .button{
+      height:40px;
+      border:none;
+      color:#814374;
+      background-color:#06425C;
+      font-size:1em;
+      padding: 8px 15px 8px 15px;
+      margin-top:30px;
+    opacity:1;
+    cursor:pointer;
+  }
+ #tweet{
+         height:32px;
+        width:45px;
+        float:left;
+        text-align:center;
+        padding:2px 2px 2px 2px;
+        padding-top:5px;
+        margin-right:2px;
+       font-size:1em;
+      }
+      
+ #quote{
+        float:right;
+      }
+}
+
+}
+.name {
+   text-align:center;
+  display:block;
+  font-size:1em;
+  margin:20px auto 20px auto;
+  color:#51A39D;
+  a{
+    color:#FF0000;
+    text-decoration:none;
+  }
+}
