@@ -1,21 +1,28 @@
 <html>
-<head><title>Random Quotes</title></head>
+<head>
+<title>Local Weather</title>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="CSS/index.css">
+</head>
 <body>
-<div class="box">
-    <div class="qtext">
-<i class="fa fa-quote-left"></i>
-        <span id="text"></span>
-    </div>
-    <div class="qauthor">- <span id="author"></span></div>
-  <div class="buttons">
-     <a class="button" id="tweet" title="Tweet quote" target="_blank">
-      <i class="fa fa-twitter"></i>
-    </a>
-   <button class="button" id="quote">Random Quote</button>
-    </div>
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script src="JS/index.js"></script>
+<div class="container-fluid">
+   <header class="col-xs-12 text-center">
+        <h1>Local Weather</h1>
+      </header>
+    <div class="text-primary col-xs-4 col-xs-offset-4 text-center well">
+          <p id="weatherinfo"></p>
+          <form action="/select-metric">
+            <label>
+          <input type="radio" name="fc" id="c"> C</label>
+        <label>
+          <input type="radio" checked name="fc" id="f"> F</label>
+         </form>
+     <p class="text-center">Created By <a href="http://codepen.io/7ranveer/" target="_blank">Ranveer</a></p>
 </div>
-<div class="name">
-  by <a href="https://codepen.io/7ranveer/">Ranveer</a>
-  </div>
+    </div>
 </body>
 </html>
